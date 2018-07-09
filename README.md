@@ -14,8 +14,8 @@ Additional plugins:
  docker run `
     --detach `
     --restart unless-stopped `
-    --publish 5090:8080 `
-    paulness15/jira-god-docker:latest
+    --publish 5080:8080 `
+    paulness15/docker-jira-all-software:latest
 ```
 
 ## Manual setup required on the first launch
@@ -23,7 +23,7 @@ Additional plugins:
 You must generate licence keys / free trials for JIRA Software and the plugins here.
 
 Plugins
-`http://localhost:5090/plugins/servlet/upm`
+`http://localhost:5080/plugins/servlet/upm`
 
 JIRA Software
-`http://localhost:5090/plugins/servlet/applications/versions-licenses`
+`http://localhost:5080/plugins/servlet/applications/versions-licenses`
