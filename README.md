@@ -20,10 +20,14 @@ Additional plugins:
 
 ## Manual setup required on the first launch
 
-You must generate licence keys / free trials for JIRA Software and the plugins here.
+Run through the install routine for `JIRA server edition` and `ServiceDesk server edition` after installing you will arrive at the Welcome to JIRA page.
+
+You must next generate licence keys / free trials for JIRA Software and the plugins here.
+
+JIRA Software
+`http://localhost:5080/plugins/servlet/applications/versions-licenses`
 
 Plugins
 `http://localhost:5080/plugins/servlet/upm`
 
-JIRA Software
-`http://localhost:5080/plugins/servlet/applications/versions-licenses`
+Ensure that you update all plugins, but there is no need to update JIRA Software.
