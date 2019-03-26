@@ -4,8 +4,9 @@ A docker image with both JIRA Service Desk and JIRA Software preinstalled, along
 
 Additional plugins:
 
-* Exocet
-* Jira Misc Workflow Extensions
+* Exocet (now referred to as Elements Copy & Sync)
+* Refined Theme For JIRA Service Desk
+* Bob Swift's Create On Transition
 * Project Configurator
 
 ## Usage
